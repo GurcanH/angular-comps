@@ -5,9 +5,10 @@ import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { PlacholderComponent } from './placholder/placholder.component';
 import { TimesDirective } from './times.directive';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [ElementsHomeComponent, PlacholderComponent, TimesDirective],
-  imports: [CommonModule, ElementsRoutingModule],
+  imports: [CommonModule, ElementsRoutingModule, SharedModule],
 })
 export class ElementsModule {}
