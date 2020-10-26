@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
+import { PlacholderComponent } from './placholder/placholder.component';
 
 @NgModule({
-  declarations: [ElementsHomeComponent],
+  declarations: [ElementsHomeComponent, PlacholderComponent],
   imports: [CommonModule, ElementsRoutingModule],
 })
 export class ElementsModule {}
